@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/stylelogin.css">
+</head>
+
+<body>
+    <form action="">
+        <h1>Criar conta </h1>
+        <div id="Criar Cadastro">
+        </div>
+        <div id="conteudo">
+            <label for="nome">Digite seu nome completo<label>
+                    <input type="text" nome="nome" id="nome">
+
+                    <label for="Endereço">Endereço<label>
+                            <input type="text" nome="Endereço" id="Endereço">
+
+                            
+                            <label for="Cidade">Cidade<label>
+                                    <input type="text" nome="Cidade" id="Cidade">
+
+
+                                    <label for="Telefone">Telefone<label>
+                                        <input type="tel" nome="Telefone" id="Telefone">
+
+                                    <label for="Criar">Criar senha</label>
+                                    <input type="password" name="Criar senha" id="Criar senha">
+
+                                    <label for="E-mail">E-mail<label>
+                                            <input type="email" nome="email" id="email">
+                                            
+
+                                            <div id="Botao">
+                                                <button type="submit"><a href="./index.html">Entar na pagina</a></button>
+                                                <button type="reset">Limpar</button>
+                                            </div>
+
+
+                                            
+        </div>
+
+    </form>
+</body>
